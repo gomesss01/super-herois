@@ -1,0 +1,35 @@
+#body{
+    background-color:black;
+}
+
+#spider{
+    margin-left: 100px;
+}
+
+#hulk{
+    margin-bottom: 100px;
+    margin-right: 80px;
+}
+#img{
+    width: 70%;
+    border-radius: 150px;
+    margin-top: 10%;
+    margin-left: 17%;
+    animation: movimentaImagem 10s ease-in infinite;
+}
+
+@keyframes movimentaImagem {
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-150px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
